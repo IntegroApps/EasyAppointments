@@ -31,7 +31,7 @@ class Config {
     // ------------------------------------------------------------------------
 
     // const BASE_URL      = 'https://agenda.projectcatapps.com/';
-    const BASE_URL      = 'http://localhost:8000';
+    const BASE_URL      = 'http://ip172-18-0-27-cpjqsvqim2rg00cs2thg-8000.direct.labs.play-with-docker.com';
     const LANGUAGE      = 'english';
     const DEBUG_MODE    = TRUE;
 
