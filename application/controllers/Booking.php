@@ -876,15 +876,12 @@ class Booking extends EA_Controller
     }
 
     public function notificationsMP(): void
-    { {
+    {
+        try {
+            json_response(array("Pruebas" => "PRUEBAS DE NEW"));
+        } catch (MPApiException $error) {
 
-            try {
-
-                // json_response(get_object_vars($preference));
-            } catch (MPApiException $error) {
-
-                json_response(array($error));
-            }
+            json_response(array($error));
         }
     }
 }
